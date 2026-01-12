@@ -1,0 +1,50 @@
+# Node modules
+/node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build / compilados
+/dist/
+/build/
+/out/
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# SQLite / Base de datos local
+/db/*.db
+/db/*.sqlite
+/db/*.sqlite3
+
+# Archivos sensibles / secretos
+.env
+.env.local
+.env.*.local
+
+# React Native / Mobile
+/android/
+/ios/
+/*.iml
+.idea/
+
+# Electron
+/*.asar
+/node_modules/electron/dist/
+
+# VSCode
+.vscode/
+
+# Cobertura de tests / reports
+/coverage/
+/reports/
+
+# Otros temporales
+tmp/
+*.tmp
+*.swp
