@@ -7,7 +7,8 @@
 CREATE TABLE IF NOT EXISTS User (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT NOT NULL,
-    hash_password TEXT NOT NULL
+    hash_password TEXT NOT NULL,
+    salt TEXT NOT NULL
 );
 
 -- Tabla de credenciales (contraseñas)

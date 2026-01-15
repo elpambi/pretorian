@@ -3,10 +3,10 @@
 -- ===============================
 
 -- Usuarios de prueba
-INSERT INTO User (name, hash_password)
+INSERT INTO User (name, hash_password, salt)
 VALUES
-('Alice', 'hash_falso_123'),
-('Bob', 'hash_falso_456');
+('Alice', 'hash_falso_123', 'salt_false'),
+('Bob', 'hash_falso_456', 'salt_false');
 
 -- Credenciales (contraseñas) de prueba
 INSERT INTO Credential (
